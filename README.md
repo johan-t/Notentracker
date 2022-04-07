@@ -11,3 +11,7 @@ Ein vom Info Kurs des Bertha-von-Suttner-Gymnasiums entwickelter Notentracker. U
 - Dobby: Texte schreiben
 - Lotta: Skizzen erstellen
 - Alle: ihren Teil zu Text Dokumentation hinzufügen. 
+
+# Sprache 
+Das Frontend und alle InApp Texte werden auf Englisch formuliert
+Die Videos und Dokumentation werden erstmals auf Deutsch erstellt und anschließend, wenn die Zeit dies übrig lässt auf Englisch noch einmal als Alternativ Version.
