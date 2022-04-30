@@ -2,7 +2,7 @@
 Ein vom Info-Kurs des Bertha-von-Suttner-Gymnasiums entwickelter Notentracker, um die Noten des Infokurses zu tracken und damit einen Überblick zu erhalten.
 
 # Aufgabenverteilung 
-- Johan: Frontend
+- Johan: Frontend, Design
 - Leo: Frontend
 - Frodo: Backend
 - Eric: Backend
