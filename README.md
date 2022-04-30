@@ -6,7 +6,7 @@ Ein vom Info-Kurs des Bertha-von-Suttner-Gymnasiums entwickelter Notentracker, u
 - Leo: Frontend
 - Frodo: Backend
 - Eric: Backend
-- Lotta: Skizza
+- Lotta: Skizzen
 
 Tutorial-Gruppe
 - Konrad: Videoschnitt und Postproduktion / Thumbnails
