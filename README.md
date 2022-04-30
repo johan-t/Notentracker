@@ -6,11 +6,17 @@ Ein vom Info-Kurs des Bertha-von-Suttner-Gymnasiums entwickelter Notentracker, u
 - Leo: Frontend
 - Frodo: Backend
 - Eric: Backend
-- Konrad: Videoschnitt und Postproduktion
-- Gaven: Einsprechen
-- Dobby: Texte schreiben
-- Lotta: Skizzen erstellen
-- Alle: ihren Teil zu Text Dokumentation hinzufügen. 
+- Lotta: Skizza
+
+Tutorial-Gruppe
+- Konrad: Videoschnitt und Postproduktion / Thumbnails
+- Gaven: Einsprechen und Protokolle schreiben
+- Beide: aus Dokumentationstext Skripte für die Videos erstellen 
+
+  Dokumentationstext für das Projekt (PDF mit QR-Codes zu den Videos)
+    Dobby, Lotta und Nico 
+    
+    
 
 # Sprache 
 Das Frontend und alle InApp-Texte werden auf Englisch formuliert.
