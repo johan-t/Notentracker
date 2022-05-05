@@ -1,5 +1,7 @@
 import React from "react";
 import Pencil from "./pencil.png"
+import User from "./user.png"
+
 
 function HomePage() {
     return (
@@ -23,6 +25,13 @@ function HomePage() {
                 <div className="circle">
                     <img className="pencil-icon" src={Pencil} alt="pencil-icon"></img>
                 </div>
+           </div>
+
+           <div className="user-block">
+                <img className="user-icon" src={User} alt="user-icon"></img>
+                <span className="UserName">User1</span>
+                <div className="divider" style={{left: '100px', top: '5px', height:'30px'}}></div>
+                <span className="abmelden">abmelden</span>
            </div>
        </header>
        <body>

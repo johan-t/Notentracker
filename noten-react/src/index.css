@@ -72,3 +72,35 @@ body {
   left: 7.5px;
   top: 7.5px;
 }
+.user-block {
+  height: 40px;
+  width: 200px;
+  background-color: #39424B;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  border-radius: 10px;
+}
+.user-icon {
+  height: 90%;
+  width: 17.5%;
+  position: absolute;
+  left: 5px;
+  top: 2px;
+}
+.UserName {
+  color: white;
+  font-weight: 800;
+  position: absolute;
+  top: 12px;
+  left: 45px;
+  cursor: pointer;
+}
+.abmelden {
+  color:#02D2BF;
+  position: absolute;
+  top: 10px;
+  left: 120px;
+  cursor: pointer;
+
+}
