@@ -1,16 +1,17 @@
 body {
   background-color: #1D2025;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .Kurs-Overview {
   height: 50px;
   width: 250px;
   background-color: #39424B;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   position: absolute;
   left: 50px;
   top: 50px;
+  border-radius: 10px;
 }
 .Kurs-Name {
   position: absolute;
@@ -30,4 +31,44 @@ body {
   position: absolute;
   left: 140px;
   top: 8px;
+}
+.Lehrer-Semester {
+  height: 75px;
+  width: 300px;
+  background-color: #39424B;;
+  position: absolute;
+  top: 125px;
+  left: 50px;
+  border-radius: 10px;
+}
+.Key-LS {
+  color: white;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  font-weight: 800;
+}
+.Value-LS {
+  color: #F5F7FA;
+  position: absolute;
+  left: 100px;
+  top: -4px;
+}
+.circle {
+  height: 35px;
+  width: 35px;
+  background-color: #02D2BF;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 275px;
+  top: -10px;
+  cursor: pointer;
+}
+.pencil-icon {
+  height: 55%;
+  width: 55%;
+  position: absolute;
+  left: 7.5px;
+  top: 7.5px;
 }
