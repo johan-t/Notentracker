@@ -3,11 +3,31 @@ body {
 }
 .Kurs-Overview {
   height: 50px;
-  width: 300px;
+  width: 250px;
   background-color: #39424B;
-}
-.Kurs-Name {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
 }
+.Kurs-Name {
+  position: absolute;
+  left: 10px;
+  top: 15px;
 
+}
+.Klasse-Name {
+  position: absolute;
+  left: 160px;
+  top: 15px;
+}
+.divider {
+  height: 35px;
+  width: 3px;
+  background-color: white;
+  position: absolute;
+  left: 140px;
+  top: 8px;
+}
