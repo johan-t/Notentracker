@@ -35,6 +35,7 @@ function HomePage() {
            </div>
        </header>
        <body>
+           <div className="divider-lang"></div>
             <div className="tabelle">
                 <div className="Kopfzeile">
 

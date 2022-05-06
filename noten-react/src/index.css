@@ -113,3 +113,12 @@ body {
   border-radius: 1px;
   border: 2px solid #F5F7FA;
 }
+.divider-lang {
+  position: absolute;
+  width: 675px;
+  height: 3px;
+  background-color: #02D2BF;
+  top: 210px;
+  left: 110px;
+
+}
