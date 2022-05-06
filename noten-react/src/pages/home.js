@@ -1,6 +1,7 @@
 import React from "react";
 import Pencil from "./pencil.png"
 import User from "./user.png"
+import Zeile from "../compontents/Zeile";
 
 
 function HomePage() {
@@ -47,7 +48,15 @@ function HomePage() {
                     <span className="datum">Datum</span>
                     <div className="kopfzeilen-divider"></div>
                 </div>
-
+                <Zeile></Zeile>
+                <Zeile></Zeile>
+                <Zeile></Zeile>
+                <Zeile></Zeile>
+                <Zeile></Zeile>
+                <Zeile></Zeile>
+                <Zeile></Zeile>
+                <Zeile></Zeile>
+                <Zeile></Zeile>
             </div>
             
        </body>
