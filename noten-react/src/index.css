@@ -110,7 +110,7 @@ body {
   background-color: #8EA1B4;
   top: 225px;
   left: 50px;
-  border-radius: 1px;
+  border-radius: 3px;
   border: 2px solid #F5F7FA;
 }
 .divider-lang {
@@ -120,5 +120,43 @@ body {
   background-color: #02D2BF;
   top: 210px;
   left: 110px;
-
+}
+.Kopfzeile {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.punkte {
+  position: absolute;
+  top: 20px;
+  left: 75px;
+}
+.note {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+}
+.leistung {
+  position: absolute;
+  top: 20px;
+  left: 425px;
+}
+.datum {
+  position: absolute;
+  top: 20px;
+  left: 650px;
+}
+.kopfzeilen-divider {
+  position: absolute;
+  width: 800px;
+  height: 3px;
+  background-color: #F5F7FA;
+  top: 60px;
+}
+.spalte {
+  position: absolute;
+  width: 3px;
+  height: 60px;
+  background-color: #F5F7FA;
+  left: 175px;
 }

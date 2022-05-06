@@ -38,7 +38,14 @@ function HomePage() {
            <div className="divider-lang"></div>
             <div className="tabelle">
                 <div className="Kopfzeile">
-
+                    <span className="punkte">Punkte</span>
+                    <div className="spalte"></div>
+                    <span className="note">Note</span>
+                    <div className="spalte" style={{left: '375px'}}></div>
+                    <span className="leistung">Leistung</span>
+                    <div className="spalte" style={{left: '575px'}}></div>
+                    <span className="datum">Datum</span>
+                    <div className="kopfzeilen-divider"></div>
                 </div>
 
             </div>
