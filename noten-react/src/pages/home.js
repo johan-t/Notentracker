@@ -35,7 +35,13 @@ function HomePage() {
            </div>
        </header>
        <body>
-        
+            <div className="tabelle">
+                <div className="Kopfzeile">
+
+                </div>
+
+            </div>
+            
        </body>
        </>
     );
