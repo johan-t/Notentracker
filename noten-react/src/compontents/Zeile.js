@@ -4,10 +4,10 @@ function Zeile(props) {
     return (
         <div>
             <div className="zeile-content">
-                <span className="punkte-zeile">15</span>
-                <span className="note-zeile">1</span>
-                <span className="leistung-zeile">Test</span>
-                <span className="datum-zeile">1.5.22</span>
+                <span className="punkte-zeile">{props.punkte}</span>
+                <span className="note-zeile">{props.note}</span>
+                <span className="leistung-zeile">{props.leistung}</span>
+                <span className="datum-zeile">{props.datum}</span>
             </div>
             <div className="zeilen-divider"></div>
         </div>
