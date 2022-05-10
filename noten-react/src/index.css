@@ -2,7 +2,6 @@ body {
   background-color: #1D2025;
   font-family: Arial;
   color: #FFFFFF;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .Kurs-Overview {
@@ -22,9 +21,9 @@ body {
 .Uebersicht {
   position: absolute;
   padding: 2.5%;
-  width: 25%;
-  bottom: 2.5em;
-  right: 2.5em;
+  width: 30%;
+  bottom: 2.5%;
+  right: 2.5%;
 }
 
 /*Boxen um den Text*/
@@ -38,7 +37,7 @@ body {
 
 .NoteHinzufuegen {
   background-color: #02D2BF;
-  border-radius: 100px;
+  border-radius: 100em;
   padding: 5%;
   margin: 5%;
   border: none;
@@ -58,8 +57,8 @@ body {
   border-radius: 10px;
   padding: 2.5%;
   width: 25%;
-  bottom: 2.5em;
-  right: 2.5em;
+  bottom: 2.5%;
+  right: 2.5%;
   background-color: #39424B;
 }
 
@@ -89,6 +88,8 @@ body {
   color: #02D2BF;
   font-size: 75%;
 }
+
+/*Johans Kram*/
 .Kurs-Name {
   position: absolute;
   left: 10px;
@@ -130,24 +131,17 @@ body {
   left: 100px;
   top: -4px;
 }
-.circle {
-  height: 35px;
-  width: 35px;
+
+.PencilIcon {
+  color: #FFFFFF;
   background-color: #02D2BF;
+  position: absolute;
+  top: -0.5em;
+  right: -0.5em;
   border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  left: 275px;
-  top: -10px;
-  cursor: pointer;
+  padding: 2.5%;
 }
-.pencil-icon {
-  height: 55%;
-  width: 55%;
-  position: absolute;
-  left: 7.5px;
-  top: 7.5px;
-}
+
 .user-block {
   height: 40px;
   width: 200px;
@@ -180,91 +174,22 @@ body {
   left: 120px;
   cursor: pointer;
 }
-.tabelle {
+
+.Tabelle {
+  bottom: 2.5em;
+  left: 2.5em;
+  width: 60%;
+  background-color: #39424B;
   position: absolute;
-  width: 800px;
-  height: 522px;
-  background-color: #8EA1B4;
-  top: 225px;
-  left: 50px;
-  border-radius: 3px;
-  border: 2px solid #F5F7FA;
+  border: 1px transparent;
+  border-radius: 10px;
+  border-spacing: 0.5em;
+  table-layout: fixed;
 }
-.divider-lang {
-  position: absolute;
-  width: 675px;
-  height: 3px;
+
+.Tabelle td, th {
   background-color: #02D2BF;
-  top: 210px;
-  left: 110px;
-}
-.Kopfzeile {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-}
-.punkte {
-  position: absolute;
-  top: 20px;
-  left: 75px;
-}
-.note {
-  position: absolute;
-  top: 20px;
-  left: 250px;
-}
-.leistung {
-  position: absolute;
-  top: 20px;
-  left: 425px;
-}
-.datum {
-  position: absolute;
-  top: 20px;
-  left: 650px;
-}
-.kopfzeilen-divider {
-  position: absolute;
-  width: 800px;
-  height: 3px;
-  background-color: #F5F7FA;
-  top: 60px;
-}
-.spalte {
-  position: absolute;
-  width: 3px;
-  height: 517.5px;
-  background-color: #F5F7FA;
-  left: 175px;
-}
-.zeilen-divider {
-  position: relative;
-  width: 800px;
-  height: 3px;
-  background-color: #F5F7FA;
-  top: 90px;
-  margin-bottom: 25px;
-}
-.zeile-content {
-  font-size: 20px;
-  position: relative;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  top: 76px;
-}
-.punkte-zeile {
-  position: relative;
-  left: 85px;
-}
-.note-zeile {
-  position: relative;
-  left: 235px;
-}
-.leistung-zeile {
-  position: relative;
-  left: 410px;
-}
-.datum-zeile {
-  position: relative;
-  left: 580px;
+  border-radius: 10px;
+  padding: 1%;
+  text-align: center;
 }
