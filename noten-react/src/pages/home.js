@@ -38,6 +38,7 @@ function HomePage() {
            </div>
        </header>
        <body>
+       {/*Rechte Seite unten Statistiken*/}
         <div className="Uebersicht">
           <div className="UebersichtBox">
             Durchschnitt: <span className="Variablen">1,1 </span>
