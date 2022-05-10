@@ -1,6 +1,6 @@
 import React from "react";
 
-function Zeile() {
+function Zeile(props) {
     return (
         <div>
             <div className="zeile-content">
