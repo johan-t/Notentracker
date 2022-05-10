@@ -2,12 +2,20 @@ body {
   background-color: #1D2025;
   font-family: Arial;
   color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .Kurs-Overview {
   height: 50px;
-  width: 300px;
+  width: 250px;
   background-color: #39424B;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  border-radius: 10px;
+  cursor: default;
 }
 
 /*Übersichts-Dinger*/
@@ -79,4 +87,183 @@ body {
   left: 2.5em;
   color: #02D2BF;
   font-size: 75%;
+}
+.Kurs-Name {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+
+}
+.Klasse-Name {
+  position: absolute;
+  left: 160px;
+  top: 15px;
+}
+.divider {
+  height: 35px;
+  width: 3px;
+  background-color: white;
+  position: absolute;
+  left: 140px;
+  top: 8px;
+}
+.Lehrer-Semester {
+  height: 75px;
+  width: 300px;
+  background-color: #39424B;;
+  position: absolute;
+  top: 125px;
+  left: 50px;
+  border-radius: 10px;
+}
+.Key-LS {
+  color: white;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  font-weight: 800;
+}
+.Value-LS {
+  color: #F5F7FA;
+  position: absolute;
+  left: 100px;
+  top: -4px;
+}
+.circle {
+  height: 35px;
+  width: 35px;
+  background-color: #02D2BF;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 275px;
+  top: -10px;
+  cursor: pointer;
+}
+.pencil-icon {
+  height: 55%;
+  width: 55%;
+  position: absolute;
+  left: 7.5px;
+  top: 7.5px;
+}
+.user-block {
+  height: 40px;
+  width: 200px;
+  background-color: #39424B;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  border-radius: 10px;
+}
+.user-icon {
+  height: 90%;
+  width: 17.5%;
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  cursor: pointer;
+}
+.UserName {
+  color: white;
+  font-weight: 800;
+  position: absolute;
+  top: 12px;
+  left: 45px;
+  cursor: pointer;
+}
+.abmelden {
+  color:#02D2BF;
+  position: absolute;
+  top: 10px;
+  left: 120px;
+  cursor: pointer;
+}
+.tabelle {
+  position: absolute;
+  width: 800px;
+  height: 522px;
+  background-color: #8EA1B4;
+  top: 225px;
+  left: 50px;
+  border-radius: 3px;
+  border: 2px solid #F5F7FA;
+}
+.divider-lang {
+  position: absolute;
+  width: 675px;
+  height: 3px;
+  background-color: #02D2BF;
+  top: 210px;
+  left: 110px;
+}
+.Kopfzeile {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.punkte {
+  position: absolute;
+  top: 20px;
+  left: 75px;
+}
+.note {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+}
+.leistung {
+  position: absolute;
+  top: 20px;
+  left: 425px;
+}
+.datum {
+  position: absolute;
+  top: 20px;
+  left: 650px;
+}
+.kopfzeilen-divider {
+  position: absolute;
+  width: 800px;
+  height: 3px;
+  background-color: #F5F7FA;
+  top: 60px;
+}
+.spalte {
+  position: absolute;
+  width: 3px;
+  height: 517.5px;
+  background-color: #F5F7FA;
+  left: 175px;
+}
+.zeilen-divider {
+  position: relative;
+  width: 800px;
+  height: 3px;
+  background-color: #F5F7FA;
+  top: 90px;
+  margin-bottom: 25px;
+}
+.zeile-content {
+  font-size: 20px;
+  position: relative;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 76px;
+}
+.punkte-zeile {
+  position: relative;
+  left: 85px;
+}
+.note-zeile {
+  position: relative;
+  left: 235px;
+}
+.leistung-zeile {
+  position: relative;
+  left: 410px;
+}
+.datum-zeile {
+  position: relative;
+  left: 580px;
 }
