@@ -4,6 +4,7 @@ import React from "react";
 import Pencil from "./pencil.png"
 import User from "./user.png"
 import Zeile from "../compontents/Zeile";
+import NeueNoteOverlay from "../compontents/NeueNoteOverlay";
 
 
 function HomePage() {
@@ -48,24 +49,10 @@ function HomePage() {
           <div className="UebersichtBox">
             Punkte Tendenz: <span className="Variablen">1,12 </span>
           </div>
-          <button className="NoteHinzufuegen">
+          <button onClick={NeueNoteOverlay} className="NoteHinzufuegen">
             <FaPlusCircle color="white" size="2em" style={{verticalAlign:"middle"}}/> Neue Note
           </button>
         </div>
-        {/*<div className="NeueNoteOverlay">
-          <form>
-            <label className="LabelOben">Punkte</label>
-            <input className="NeueNoteBox" min="0" max="15" required="number" type="number"/>
-            <label className="LabelUnten">0 bis 15</label>
-            <label className="LabelOben">Leistung</label>
-            <input className="NeueNoteBox" maxlength="50" required="required" type="text"/>
-            <label className="LabelUnten">max. 50 Zeichen</label>
-            <label className="LabelOben">Datum</label>
-            <input className="NeueNoteBox" required="required" type="date"/>
-            <label className="LabelUnten"></label>
-            <span><button type="submit">Note hinzufügen</button><button type="reset">Reset</button></span>
-          </form>
-        </div>*/}
            <div className="divider-lang"></div>
             <div className="tabelle">
                 <div className="Kopfzeile">
@@ -88,7 +75,7 @@ function HomePage() {
                 <Zeile></Zeile>
                 <Zeile></Zeile>
             </div>
-            
+
        </body>
        </>
     );
