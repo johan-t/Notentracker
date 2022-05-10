@@ -1,7 +1,9 @@
 body {
   background-color: #1D2025;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
+  color: #FFFFFF;
 }
+
 .Kurs-Overview {
   height: 50px;
   width: 250px;
@@ -12,6 +14,77 @@ body {
   left: 50px;
   top: 50px;
   border-radius: 10px;
+}
+
+/*Übersichts-Dinger*/
+.Uebersicht {
+  position: absolute;
+  padding: 2.5%;
+  width: 25%;
+  bottom: 2.5em;
+  right: 2.5em;
+}
+
+/*Boxen um den Text*/
+.UebersichtBox {
+  background-color: #39424B;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 5%;
+  font-weight: bold;
+}
+
+.NoteHinzufuegen {
+  background-color: #02D2BF;
+  border-radius: 100px;
+  padding: 5%;
+  margin: 5%;
+  border: none;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+/* Variablen */
+.Variablen {
+  font-weight: normal;
+}
+
+/*Overlay fuer neue Noten*/
+.NeueNoteOverlay {
+  position: absolute;
+  border-radius: 10px;
+  padding: 2.5%;
+  width: 25%;
+  bottom: 2.5em;
+  right: 2.5em;
+  background-color: #39424B;
+}
+
+.NeueNoteBox {
+  border: solid #02D2BF;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 5%;
+  color: #FFFFFF;
+  background-color: transparent;
+  width: 79%;
+}
+
+.LabelOben {
+  position: relative;
+  top: 1.75em;
+  left: 2.5em;
+  background-color: #39424B;
+  padding: 1%;
+  color: #02D2BF;
+}
+
+.LabelUnten {
+  position: relative;
+  top: -1em;
+  left: 2.5em;
+  color: #02D2BF;
+  font-size: 75%;
 }
 .Kurs-Name {
   position: absolute;
