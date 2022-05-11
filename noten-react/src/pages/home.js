@@ -75,7 +75,6 @@ function HomePage() {
                 <Zeile punkte="8" note="3" leistung="Vortrag" datum="1.2.342"></Zeile>
                 <Zeile punkte="7" note="3" leistung="test" datum="1.4.22"></Zeile>
             </div>
-
        </body>
        </>
     );
