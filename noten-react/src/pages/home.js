@@ -1,39 +1,31 @@
-import { FaPlusCircle } from "react-icons/fa";
-import { IconContext } from "react-icons";
 import React from "react";
-import { RiPencilFill } from "react-icons/ri"
-import User from "./user.png"
-import Zeile from "../compontents/Zeile";
-import NeueNoteOverlay from "../compontents/NeueNoteOverlay";
-
+import { IconContext } from "react-icons";
+import {FaUser} from "react-icons/fa";
+import { RiPencilFill } from "react-icons/ri";
+import {FaPlusCircle} from "react-icons/fa";
+import NeueNoteOverlay from "../components/NeueNoteOverlay";
+import TabelleZeile from "../components/TabelleZeile";
+import { useState } from "react";
 
 function HomePage() {
+
+    const [overlay, openOverlay] = useState(false);
+
     return (
        <>
        <header>
            <div className="Kurs-Overview">
-                <span className="Kurs-Name">Kurs/Klasse</span>
-                <div className="divider"></div>
-                <span className="Klasse-Name">Jahrgang</span>
+                <span>Kurs/Klasse</span><span className="Teiler"/><span>Jahrgang</span>
            </div>
-
            <div className="Lehrer-Semester">
-                <div className="Key-LS">
-                    <p className="Lehrkraft">Lehrkraft:</p>
-                    <p className="Halbjahr">Halbjahr:</p>
-                </div>
-                <div className="Value-LS">
-                    <p className="Schwarzbach">Herr Schwarzbach</p>
-                    <p className="Q2">Q2</p>
-                </div>
-                    <RiPencilFill className="PencilIcon" size="1.5em"/>
-           </div>
-
+              <b>Lehrkraft: </b>
+              <span>LehrerVariabel</span><br/>
+              <b>Halbjahr: </b>
+              <span>Zeitraum</span>
+              <RiPencilFill className="PencilIcon" size="1.5em"/>
+          </div>
            <div className="user-block">
-                <img className="user-icon" src={User} alt="user-icon"></img>
-                <span className="UserName">User1</span>
-                <div className="divider" style={{left: '100px', top: '5px', height:'30px'}}></div>
-                <span className="abmelden">abmelden</span>
+                <FaUser className="UserIcon"/><span> username</span><span className="Teiler"/><span>abmelden</span>
            </div>
        </header>
        <body>
@@ -48,7 +40,8 @@ function HomePage() {
           <div className="UebersichtBox">
             Punkte Tendenz: <span className="Variablen">1,12 </span>
           </div>
-          <button onClick=<NeueNoteOverlay/> className="NoteHinzufuegen">
+          {overlay && <NeueNoteOverlay/>}
+          <button onClick={() => openOverlay(true)} className="NoteHinzufuegen">
             <FaPlusCircle color="white" size="2em" style={{verticalAlign:"middle"}}/> Neue Note
           </button>
         </div>
@@ -60,73 +53,12 @@ function HomePage() {
             <th>Leistung</th>
             <th>Datum</th>
           </tr>
-          <tr>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-          </tr>
-          <tr>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-          </tr>
-          <tr>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-          </tr>
-          <tr>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-          </tr>
-          <tr>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-          </tr>
-          <tr>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-          </tr>
-          <tr>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-            <td>blas</td>
-          </tr>
+          <TabelleZeile/>
+          <TabelleZeile/>
+          <TabelleZeile/>
+          <TabelleZeile/>
+          <TabelleZeile/>
         </table>
-        {/*
-           <div className="divider-lang"></div>
-            <div className="tabelle">
-                <div className="Kopfzeile">
-                    <span className="punkte">Punkte</span>
-                    <div className="spalte"></div>
-                    <span className="note">Note</span>
-                    <div className="spalte" style={{left: '375px'}}></div>
-                    <span className="leistung">Leistung</span>
-                    <div className="spalte" style={{left: '575px'}}></div>
-                    <span className="datum">Datum</span>
-                    <div className="kopfzeilen-divider"></div>
-                </div>
-                <Zeile></Zeile>
-                <Zeile></Zeile>
-                <Zeile></Zeile>
-                <Zeile></Zeile>
-                <Zeile></Zeile>
-                <Zeile></Zeile>
-                <Zeile></Zeile>
-                <Zeile></Zeile>
-                <Zeile></Zeile>
-
-            </div>*/}
        </body>
        </>
     );
