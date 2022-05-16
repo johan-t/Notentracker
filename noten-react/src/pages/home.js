@@ -1,7 +1,7 @@
 import { FaPlusCircle } from "react-icons/fa";
 import Pencil from "./pencil.png"
 import User from "./user.png"
-import Zeile from "../compontents/Zeile";
+import Zeile from "../components/Zeile";
 import React from "react";
 import { IconContext } from "react-icons";
 import {FaUser} from "react-icons/fa";
