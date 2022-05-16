@@ -4,9 +4,19 @@ import Pencil from "./pencil.png"
 import User from "./user.png"
 import Zeile from "../compontents/Zeile";
 import NeueNoteOverlay from "../compontents/NeueNoteOverlay";
-
+import React from "react";
+import { IconContext } from "react-icons";
+import {FaUser} from "react-icons/fa";
+import { RiPencilFill } from "react-icons/ri";
+import {FaPlusCircle} from "react-icons/fa";
+import NeueNoteOverlay from "../components/NeueNoteOverlay";
+import TabelleZeile from "../components/TabelleZeile";
+import { useState } from "react";
 
 function HomePage() {
+
+    const [overlay, openOverlay] = useState(false);
+
     return (
        <>
        <header>
@@ -15,7 +25,6 @@ function HomePage() {
                 <div className="divider"></div>
                 <span className="Klasse-Name">Klasse 11</span>
            </div>
-
            <div className="Lehrer-Semester">
                 <div className="Key-LS">
                     <p className="Lehrkraft">Lehrkraft:</p>
@@ -31,13 +40,9 @@ function HomePage() {
            </div>
 
            <div className="user-block">
-                <img className="user-icon" src={User} alt="user-icon"></img>
-                <span className="UserName">User1</span>
-                <div className="divider" style={{left: '100px', top: '5px', height:'30px'}}></div>
-                <span className="abmelden">abmelden</span>
+                <FaUser className="UserIcon"/><span> username</span><span className="Teiler"/><span>abmelden</span>
            </div>
        </header>
-       <body>
        {/*Rechte Seite unten Statistiken*/}
         <div className="Uebersicht">
           <div className="UebersichtBox">
@@ -75,7 +80,10 @@ function HomePage() {
                 <Zeile punkte="8" note="3" leistung="Vortrag" datum="1.2.342"></Zeile>
                 <Zeile punkte="7" note="3" leistung="test" datum="1.4.22"></Zeile>
             </div>
-       </body>
+          {overlay && <NeueNoteOverlay/>}
+          <button onClick={() => openOverlay(true)} className="NoteHinzufuegen">
+            <FaPlusCircle color="white" size="2em" style={{verticalAlign:"middle"}}/> Neue Note
+          </button>
        </>
     );
 }
