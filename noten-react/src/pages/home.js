@@ -25,7 +25,7 @@ function HomePage() {
               <RiPencilFill className="PencilIcon" size="1.5em"/>
           </div>
            <div className="user-block">
-                <FaUser className="UserIcon"/><span> username</span><span className="Teiler"/><span>abmelden</span>
+                <FaUser className="UserIcon"/><span>username</span><span className="Teiler"/><span>abmelden</span>
            </div>
        </header>
        <body>

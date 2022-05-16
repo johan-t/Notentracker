@@ -87,10 +87,9 @@ body {
 }
 
 .Teiler {
-  height: 50%;
-  background-color: white;
-  position: absolute;
+  border: 1px solid white;
   width: 1%;
+  margin: 2%;
 }
 
 .Lehrer-Semester {
