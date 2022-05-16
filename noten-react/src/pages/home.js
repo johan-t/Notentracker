@@ -1,14 +1,11 @@
 import { FaPlusCircle } from "react-icons/fa";
-import React from "react";
 import Pencil from "./pencil.png"
 import User from "./user.png"
 import Zeile from "../compontents/Zeile";
-import NeueNoteOverlay from "../compontents/NeueNoteOverlay";
 import React from "react";
 import { IconContext } from "react-icons";
 import {FaUser} from "react-icons/fa";
 import { RiPencilFill } from "react-icons/ri";
-import {FaPlusCircle} from "react-icons/fa";
 import NeueNoteOverlay from "../components/NeueNoteOverlay";
 import TabelleZeile from "../components/TabelleZeile";
 import { useState } from "react";
