@@ -4,10 +4,16 @@ import {CgCloseR} from "react-icons/cg";
 import { useState } from "react";
 
 function NeueNoteOverlay() {
+
+  const [overlay, openOverlay] = useState(false);
+
   return (
+    <>
     <div className="NeueNoteOverlay">
       <form>
-        <CgCloseR/>
+        {overlay && <NeueNoteOverlay/>}
+        <CgCloseR cursor="pointer" size="1.5em" color="#FF5757" className="NeueNoteClose" onClick={() => openOverlay(false)}/>
+        <h2 align="middle">Note hinzufügen</h2>
         <label className="LabelOben">Punkte</label>
         <input className="NeueNoteBox" min="0" max="15" required="number" type="number"/>
         <label className="LabelUnten">0 bis 15</label>
@@ -17,9 +23,10 @@ function NeueNoteOverlay() {
         <label className="LabelOben">Datum</label>
         <input className="NeueNoteBox" required="required" type="date"/>
         <label className="LabelUnten"></label>
-        <span><button type="submit">Note hinzufügen</button><button type="reset">Reset</button></span>
+        <span><button className="NeueNoteSubmit" type="submit">Note hinzufügen</button><button className="NeueNoteReset" type="reset">Reset</button></span>
       </form>
     </div>
+    </>
   );
 }
 

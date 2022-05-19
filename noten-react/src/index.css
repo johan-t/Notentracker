@@ -62,7 +62,7 @@ body {
 .LabelOben {
   position: relative;
   top: 1.75em;
-  left: 2.5%;
+  left: 5%;
   background-color: #39424B;
   padding: 1%;
   color: #02D2BF;
@@ -74,6 +74,30 @@ body {
   left: 2.5em;
   color: #02D2BF;
   font-size: 75%;
+}
+
+.NeueNoteReset {
+  cursor: pointer;
+  width: 40%;
+  font-weight: bold;
+  color: #FFFFFF;
+  border: none;
+  background-color: #FF5757;
+  border-radius: 10em;
+  padding: 5%;
+  margin: 5%;
+}
+
+.NeueNoteSubmit {
+  cursor: pointer;
+  font-weight: bold;
+  width: 40%;
+  color: #FFFFFF;
+  border: none;
+  background-color: #02D2BF;
+  border-radius: 10em;
+  padding: 5%;
+  margin: 5%;
 }
 
 /*Übersicht Ordner*/
@@ -127,21 +151,26 @@ body {
 }
 
 /*Tabelle CSS*/
-.Tabelle {
+.containerDiv {
   bottom: 2.5em;
   left: 2.5em;
   width: 60%;
-  background-color: #39424B;
   position: absolute;
-  border: 1px transparent;
-  border-radius: 10px;
-  border-spacing: 0.5em;
+  padding-top: 1em;
+  border-top: 0.15em solid #02D2BF;
+}
+
+.Tabelle {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-spacing: 0.1em;
   table-layout: fixed;
+  border-radius: 0.2em;
 }
 
 .Tabelle td, th {
-  background-color: #02D2BF;
-  border-radius: 10px;
+  color: #FFFFFF;
+  background-color: #8EA1B4;
   padding: 1%;
   text-align: center;
 }

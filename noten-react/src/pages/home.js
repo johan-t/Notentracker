@@ -15,7 +15,7 @@ function HomePage() {
        <>
        <header>
            <div className="Kurs-Overview">
-                <span>Kurs/Klasse</span><span className="Teiler"/><span>Jahrgang</span>
+                <b>Kurs/Klasse</b><span className="Teiler"/><b>Jahrgang</b>
            </div>
            <div className="Lehrer-Semester">
               <b>Lehrkraft: </b>
@@ -25,7 +25,7 @@ function HomePage() {
               <RiPencilFill className="PencilIcon" size="1.5em"/>
           </div>
            <div className="user-block">
-                <FaUser className="UserIcon"/><span>username</span><span className="Teiler"/><span>abmelden</span>
+                <FaUser className="UserIcon"/><b>username</b><span className="Teiler"/><b>abmelden</b>
            </div>
        </header>
        <body>
@@ -46,6 +46,7 @@ function HomePage() {
           </button>
         </div>
       {/*Tabelle*/}
+      <div className="containerDiv">
         <table className="Tabelle">
           <tr>
             <th>Punkte</th>
@@ -53,12 +54,13 @@ function HomePage() {
             <th>Leistung</th>
             <th>Datum</th>
           </tr>
-          <TabelleZeile/>
+          <TabelleZeile datum="123"/>
           <TabelleZeile/>
           <TabelleZeile/>
           <TabelleZeile/>
           <TabelleZeile/>
         </table>
+        </div>
        </body>
        </>
     );
