@@ -5,13 +5,11 @@ import { useState } from "react";
 
 function NeueNoteOverlay() {
 
-  const [overlay, openOverlay] = useState(true);
+  const [overlay, openOverlay] = useState(false);
 
   return (
     <>
       <div className="NeueNoteOverlay">
-      {overlay && <NeueNoteOverlay/>}
-      <button onClick={() => openOverlay(true)}/>
         <form>
           {overlay && <NeueNoteOverlay/>}
           <CgCloseR onClick={() => openOverlay(false)} cursor="pointer" size="1.5em" color="#FF5757" className="NeueNoteClose"/>
