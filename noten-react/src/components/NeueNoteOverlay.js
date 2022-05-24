@@ -25,7 +25,10 @@ function NeueNoteOverlay() {
           <label className="LabelOben">Datum</label>
           <input className="NeueNoteBox" required="required" type="date"/>
           <label className="LabelUnten"></label>
-          <span><button className="NeueNoteSubmit" type="submit">Note hinzufügen</button><button className="NeueNoteReset" type="reset">Reset</button></span>
+          <span>
+            <button className="NeueNoteSubmit" type="submit">Note hinzufügen</button>
+            <button className="NeueNoteReset" type="reset">Reset</button>
+          </span>
         </form>
       </div>
     </>
