@@ -11,6 +11,12 @@ function NeueNoteOverlay() {
   const [leistung, setLeistung] = useState('')
   const [datum, setDatum] = useState('')
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const input = {punkt, leistung, datum}
+    console.log(input)
+  }
+
 
 
   const toggleNeueNote = () => {
@@ -23,7 +29,7 @@ function NeueNoteOverlay() {
         <FaPlusCircle color="white" size="2em" style={{verticalAlign:"middle"}}/> Neue Note
       </button>
       {NeueNote && (
-        <form className="NeueNoteOverlay">
+        <form className="NeueNoteOverlay" onSubmit={handleSubmit}>
           <CgCloseR onClick={toggleNeueNote} cursor="pointer" size="1.5em" color="#FF5757" className="NeueNoteClose"/>
           <h2 align="middle">Note hinzufügen</h2>
           <label className="LabelOben">Punkte</label>
