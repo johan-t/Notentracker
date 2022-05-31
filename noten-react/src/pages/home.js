@@ -5,11 +5,8 @@ import { RiPencilFill } from "react-icons/ri";
 import {FaPlusCircle} from "react-icons/fa";
 import NeueNoteOverlay from "../components/NeueNoteOverlay";
 import TabelleZeile from "../components/TabelleZeile";
-import { useState } from "react";
 
 function HomePage() {
-
-    const [overlay, openOverlay] = useState(false);
 
     return (
        <>
@@ -40,10 +37,7 @@ function HomePage() {
           <div className="UebersichtBox">
             Punkte Tendenz: <span className="Variablen">1,12 </span>
           </div>
-          {overlay && <NeueNoteOverlay/>}
-          <button onClick={() => openOverlay(true)} className="NoteHinzufuegen">
-            <FaPlusCircle color="white" size="2em" style={{verticalAlign:"middle"}}/> Neue Note
-          </button>
+          <NeueNoteOverlay/>
         </div>
       {/*Tabelle*/}
       <div className="containerDiv">
