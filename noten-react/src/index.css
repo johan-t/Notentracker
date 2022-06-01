@@ -174,3 +174,8 @@ body {
   padding: 1%;
   text-align: center;
 }
+.AlteNoteOverlay {
+  width: 200px;
+  height: 100px;
+  color: red;
+}
