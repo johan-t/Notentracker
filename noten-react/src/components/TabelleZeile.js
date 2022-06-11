@@ -7,6 +7,7 @@ function TabelleZeile(props) {
         <td>{props.note}</td>
         <td>{props.leistung}</td>
         <td>{props.datum}</td>
+        <td>{props.id}</td>
       </tr>
     );
 }

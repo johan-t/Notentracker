@@ -33,8 +33,14 @@ function NeueNoteOverlay(props) {
   }
  notenCalculation();
 
-  const input = {punkt, leistung, datum, note }
-  const data = input
+ var id;
+ const randomIdbetween1and10000 = () => {
+    id = Math.floor(Math.random() * 10000) + 1;
+ }
+  randomIdbetween1and10000();
+
+  const input = {punkt, leistung, datum, note, id }
+  const data = input;
 
   const handleSubmit = (e) => {
     e.preventDefault();

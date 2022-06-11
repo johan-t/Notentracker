@@ -55,11 +55,7 @@ function HomePage(props) {
             <th>Leistung</th>
             <th>Datum</th>
           </tr>
-          <TabelleZeile punkt={data.punkt} note={data.note} leistung={data.leistung} datum={data.datum}/>
-          <TabelleZeile />
-          <TabelleZeile/>
-          <TabelleZeile/>
-          <TabelleZeile/>
+          <TabelleZeile punkt={data.punkt} note={data.note} leistung={data.leistung} datum={data.datum} id={data.id}/>
         </table>
         </div>
        </body>
