@@ -5,8 +5,15 @@ import { RiPencilFill } from "react-icons/ri";
 import {FaPlusCircle} from "react-icons/fa";
 import NeueNoteOverlay from "../components/NeueNoteOverlay";
 import TabelleZeile from "../components/TabelleZeile";
+import { useState } from "react";
 
-function HomePage() {
+function HomePage(props) {
+  //function to pass input to TableZeile
+  const [data, setData] = useState('');
+
+  const childToParent = (childData) => {
+   setData(childData);
+}
 
     return (
        <>
@@ -37,7 +44,7 @@ function HomePage() {
           <div className="UebersichtBox">
             Punkte Tendenz: <span className="Variablen">1,12 </span>
           </div>
-          <NeueNoteOverlay/>
+          <NeueNoteOverlay childToParent={childToParent}/>
         </div>
       {/*Tabelle*/}
       <div className="containerDiv">
@@ -48,8 +55,8 @@ function HomePage() {
             <th>Leistung</th>
             <th>Datum</th>
           </tr>
-          <TabelleZeile datum="123"/>
-          <TabelleZeile/>
+          <TabelleZeile punkt={data.punkt} note={data.note} leistung={data.leistung} datum={data.datum}/>
+          <TabelleZeile />
           <TabelleZeile/>
           <TabelleZeile/>
           <TabelleZeile/>

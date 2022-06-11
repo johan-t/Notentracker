@@ -4,20 +4,41 @@ import {CgCloseR} from "react-icons/cg";
 import {FaPlusCircle} from "react-icons/fa";
 import {useState} from "react";
 
-function NeueNoteOverlay() {
+function NeueNoteOverlay(props) {
 
   const [NeueNote, setNeueNote] = useState(false);
   const [punkt, setPunkt] = useState('');
   const [leistung, setLeistung] = useState('')
   const [datum, setDatum] = useState('')
 
+  var note;
+  const notenCalculation = () => {
+    if (punkt == 15) {note = 1}
+    else if (punkt == 14) {note = 1}
+    else if (punkt == 13) {note = 1}
+    else if (punkt == 12) {note = 2}
+    else if (punkt == 11) {note = 2}
+    else if (punkt == 10) {note = 2}
+    else if (punkt == 9) {note = 3}
+    else if (punkt == 8) {note = 3}
+    else if (punkt == 7) {note = 3}
+    else if (punkt == 6) {note = 4}
+    else if (punkt == 5) {note = 4}
+    else if (punkt == 4) {note = 4}
+    else if (punkt == 3) {note = 5}
+    else if (punkt == 2) {note = 5}
+    else if (punkt == 1) {note = 5}
+    else {note = 6}
+    return note;
+  }
+ notenCalculation();
+
+  const input = {punkt, leistung, datum, note }
+  const data = input
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    const input = {punkt, leistung, datum}
-    console.log(input)
   }
-
-
 
   const toggleNeueNote = () => {
   setNeueNote(!NeueNote);
@@ -42,7 +63,7 @@ function NeueNoteOverlay() {
           <input className="NeueNoteBox" required="required" type="date" value={datum} onChange={(e)=> setDatum(e.target.value)}/>
           <label className="LabelUnten"></label>
           <span>
-            <button className="NeueNoteSubmit" type="submit">Note hinzufügen</button>
+            <button className="NeueNoteSubmit" type="submit" onClick={() => props.childToParent(data)}>Note hinzufügen</button>
             <button className="NeueNoteReset" type="reset">Reset</button>
           </span>
         </form>
