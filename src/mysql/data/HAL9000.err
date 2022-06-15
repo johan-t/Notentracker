@@ -1,0 +1,1088 @@
+2022-04-10T18:56:31.873537Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-04-10T18:56:31.874763Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-04-10T18:56:31.874770Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-04-10T18:56:31.874798Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-04-10T18:56:31.875324Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-04-10T18:56:31.875362Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 13768 ...
+2022-04-10T18:56:31.880891Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-04-10T18:56:31.901724Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-10T18:56:31.902058Z 0 [Note] InnoDB: Uses event mutexes
+2022-04-10T18:56:31.902256Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-04-10T18:56:31.902574Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-10T18:56:31.903195Z 0 [Note] InnoDB: Number of pools: 1
+2022-04-10T18:56:31.903549Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-04-10T18:56:31.906395Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-04-10T18:56:31.912108Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-10T18:56:31.969187Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-04-10T18:56:31.971708Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2744041
+2022-04-10T18:56:31.972039Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2744050
+2022-04-10T18:56:31.972365Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-04-10T18:56:31.972613Z 0 [Note] InnoDB: Starting crash recovery.
+2022-04-10T18:56:32.327536Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-10T18:56:32.328206Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-10T18:56:32.328752Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-10T18:56:32.337087Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-04-10T18:56:32.342779Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-04-10T18:56:32.343648Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-04-10T18:56:32.344515Z 0 [Note] InnoDB: Waiting for purge to start
+2022-04-10T18:56:32.414164Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 2744050
+2022-04-10T18:56:32.415291Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\data\ib_buffer_pool
+2022-04-10T18:56:32.415384Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-04-10T18:56:32.444797Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-04-10T18:56:32.445280Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-04-10T18:56:32.445908Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220410 20:56:32
+2022-04-10T18:56:32.458140Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-04-10T18:56:32.458574Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-04-10T18:56:32.469433Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-04-10T18:56:32.469955Z 0 [Note] IPv6 is available.
+2022-04-10T18:56:32.470140Z 0 [Note]   - '::' resolves to '::';
+2022-04-10T18:56:32.470399Z 0 [Note] Server socket created on IP: '::'.
+2022-04-10T18:56:33.131259Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-04-10T18:56:33.132011Z 0 [Note] 
+2022-04-10T18:57:27.262531Z 2 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\german\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-04-26T07:41:03.062764Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-04-26T07:41:03.064592Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-04-26T07:41:03.064611Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-04-26T07:41:03.064667Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-04-26T07:41:03.065945Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-04-26T07:41:03.066049Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 19632 ...
+2022-04-26T07:41:03.079042Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-04-26T07:41:03.119582Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-26T07:41:03.120446Z 0 [Note] InnoDB: Uses event mutexes
+2022-04-26T07:41:03.120972Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-04-26T07:41:03.121817Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-26T07:41:03.123148Z 0 [Note] InnoDB: Number of pools: 1
+2022-04-26T07:41:03.123973Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-04-26T07:41:03.129032Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-04-26T07:41:03.140991Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-26T07:41:03.216520Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-04-26T07:41:03.220416Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2839154
+2022-04-26T07:41:03.221408Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2839163
+2022-04-26T07:41:03.222435Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-04-26T07:41:03.223231Z 0 [Note] InnoDB: Starting crash recovery.
+2022-04-26T07:41:03.653519Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-26T07:41:03.654332Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-26T07:41:03.655686Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-26T07:41:03.668538Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-04-26T07:41:03.681433Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-04-26T07:41:03.682525Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-04-26T07:41:03.683783Z 0 [Note] InnoDB: Waiting for purge to start
+2022-04-26T07:41:03.744592Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 2839163
+2022-04-26T07:41:03.746251Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\data\ib_buffer_pool
+2022-04-26T07:41:03.746265Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-04-26T07:41:03.785184Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220426  9:41:03
+2022-04-26T07:41:03.809487Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-04-26T07:41:03.810957Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-04-26T07:41:03.841157Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-04-26T07:41:03.842695Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-04-26T07:41:03.866564Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-04-26T07:41:03.867794Z 0 [Note] IPv6 is available.
+2022-04-26T07:41:03.868371Z 0 [Note]   - '::' resolves to '::';
+2022-04-26T07:41:03.869101Z 0 [Note] Server socket created on IP: '::'.
+2022-04-26T07:41:05.427726Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-04-26T07:41:05.428608Z 0 [Note] 
+2022-04-26T07:41:46.743934Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-04-26T07:41:46.744103Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-04-26T07:41:46.744113Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-04-26T07:41:46.744162Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-04-26T07:41:46.745418Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-04-26T07:41:46.745465Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 14168 ...
+2022-04-26T07:41:46.746814Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-04-26T07:41:46.768508Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-26T07:41:46.769605Z 0 [Note] InnoDB: Uses event mutexes
+2022-04-26T07:41:46.770286Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-04-26T07:41:46.771332Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-26T07:41:46.772744Z 0 [Note] InnoDB: Number of pools: 1
+2022-04-26T07:41:46.773639Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-04-26T07:41:46.780148Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-04-26T07:41:46.795860Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-26T07:41:46.848534Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-04-26T07:41:46.852140Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2839182
+2022-04-26T07:41:46.853159Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2839191
+2022-04-26T07:41:46.854262Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-04-26T07:41:46.855064Z 0 [Note] InnoDB: Starting crash recovery.
+2022-04-26T07:41:47.137167Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-26T07:41:47.138175Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-26T07:41:47.140001Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-26T07:41:47.155656Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-04-26T07:41:47.172810Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-04-26T07:41:47.174089Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-04-26T07:41:47.175855Z 0 [Note] InnoDB: Waiting for purge to start
+2022-04-26T07:41:47.239499Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 2839191
+2022-04-26T07:41:47.241145Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-04-26T07:41:47.241163Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\data\ib_buffer_pool
+2022-04-26T07:41:47.260652Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-04-26T07:41:47.262158Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-04-26T07:41:47.267852Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-04-26T07:41:47.269040Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-04-26T07:41:47.271491Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220426  9:41:47
+2022-04-26T07:41:47.274458Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-04-26T07:41:47.276028Z 0 [Note] IPv6 is available.
+2022-04-26T07:41:47.276661Z 0 [Note]   - '::' resolves to '::';
+2022-04-26T07:41:47.277447Z 0 [Note] Server socket created on IP: '::'.
+2022-04-26T07:41:47.363188Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-04-26T07:41:47.364619Z 0 [Note] 
+2022-04-26T07:53:14.784000Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 96650ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T07:58:29.635574Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 268519ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T08:11:03.114195Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 67528ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T11:21:27.699672Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7637689ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T11:47:27.500458Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 41550ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T12:00:04.340652Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 127079ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T14:24:49.635625Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7427957ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T17:27:40.301063Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9884301ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T19:06:43.239719Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4656389ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-26T23:56:08.400196Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10798906ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-27T20:11:31.161145Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 72918718ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-04-27T20:56:12.532286Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1981410ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-05-03T10:43:54.336162Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-05-03T10:43:54.337905Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-05-03T10:43:54.337919Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-05-03T10:43:54.337963Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-05-03T10:43:54.338808Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-05-03T10:43:54.338859Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 11388 ...
+2022-05-03T10:43:54.348125Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-03T10:43:54.384538Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-03T10:43:54.385046Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-03T10:43:54.385362Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-03T10:43:54.385859Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-03T10:43:54.386774Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-03T10:43:54.387394Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-03T10:43:54.391519Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-03T10:43:54.401371Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-03T10:43:54.465987Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-05-03T10:43:54.468517Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2839210
+2022-05-03T10:43:54.469022Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2839219
+2022-05-03T10:43:54.469555Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-05-03T10:43:54.469955Z 0 [Note] InnoDB: Starting crash recovery.
+2022-05-03T10:43:54.840252Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-03T10:43:54.841108Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-03T10:43:54.842035Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-03T10:43:54.864199Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-05-03T10:43:54.876741Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-05-03T10:43:54.877376Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-05-03T10:43:54.878338Z 0 [Note] InnoDB: Waiting for purge to start
+2022-05-03T10:43:54.943913Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 2839219
+2022-05-03T10:43:54.945526Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-05-03T10:43:54.945675Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\data\ib_buffer_pool
+2022-05-03T10:43:54.975556Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220503 12:43:54
+2022-05-03T10:43:54.984333Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-05-03T10:43:54.985579Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-05-03T10:43:55.004361Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-05-03T10:43:55.005850Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-05-03T10:43:55.023058Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-05-03T10:43:55.023725Z 0 [Note] IPv6 is available.
+2022-05-03T10:43:55.024026Z 0 [Note]   - '::' resolves to '::';
+2022-05-03T10:43:55.024398Z 0 [Note] Server socket created on IP: '::'.
+2022-05-03T10:43:56.110882Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-05-03T10:43:56.111439Z 0 [Note] 
+2022-05-03T10:47:39.541666Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-05-03T10:47:39.541735Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-05-03T10:47:39.541739Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-05-03T10:47:39.541761Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-05-03T10:47:39.542223Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-05-03T10:47:39.542257Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 15024 ...
+2022-05-03T10:47:39.543034Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-03T10:47:39.550949Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-03T10:47:39.551271Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-03T10:47:39.551469Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-03T10:47:39.551799Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-03T10:47:39.552332Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-03T10:47:39.552642Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-03T10:47:39.554735Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-03T10:47:39.560991Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-03T10:47:39.590986Z 0 [ERROR] InnoDB: .\ib_logfile0 can't be opened in read-write mode.
+2022-05-03T10:47:39.591337Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-05-03T10:47:39.799501Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-05-03T10:47:39.799841Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-05-03T10:47:39.800139Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-05-03T10:47:39.800370Z 0 [ERROR] Aborting
+
+2022-05-03T10:47:39.800523Z 0 [Note] Binlog end
+2022-05-03T10:47:39.800768Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-03T10:47:39.801236Z 0 [Note] 
+2022-05-03T10:48:24.889068Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-05-03T10:48:24.889176Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-05-03T10:48:24.889182Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-05-03T10:48:24.889216Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-05-03T10:48:24.890104Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-05-03T10:48:24.890129Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 8816 ...
+2022-05-03T10:48:24.891050Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-03T10:48:24.903173Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-03T10:48:24.903680Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-03T10:48:24.903992Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-03T10:48:24.904489Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-03T10:48:24.905268Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-03T10:48:24.905754Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-03T10:48:24.909670Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-03T10:48:24.919329Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-03T10:48:24.983741Z 0 [ERROR] InnoDB: .\ib_logfile0 can't be opened in read-write mode.
+2022-05-03T10:48:24.984260Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-05-03T10:48:25.315909Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-05-03T10:48:25.316693Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-05-03T10:48:25.317512Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-05-03T10:48:25.318176Z 0 [ERROR] Aborting
+
+2022-05-03T10:48:25.318590Z 0 [Note] Binlog end
+2022-05-03T10:48:25.318927Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-03T10:48:25.319569Z 0 [Note] 
+2022-05-05T08:06:32.708223Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-05-05T08:06:32.709841Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-05-05T08:06:32.709849Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-05-05T08:06:32.709881Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-05-05T08:06:32.711139Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-05-05T08:06:32.711184Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 13936 ...
+2022-05-05T08:06:32.720253Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-05T08:06:32.753822Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-05T08:06:32.754367Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-05T08:06:32.754683Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-05T08:06:32.755178Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-05T08:06:32.756057Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-05T08:06:32.756589Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-05T08:06:32.759922Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-05T08:06:32.767825Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-05T08:06:32.829737Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-05-05T08:06:32.832337Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2839238
+2022-05-05T08:06:32.833044Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2839247
+2022-05-05T08:06:32.833953Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-05-05T08:06:32.834490Z 0 [Note] InnoDB: Starting crash recovery.
+2022-05-05T08:06:33.257154Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-05T08:06:33.257636Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-05T08:06:33.258505Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-05T08:06:33.276694Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-05-05T08:06:33.288783Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-05-05T08:06:33.289592Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-05-05T08:06:33.290432Z 0 [Note] InnoDB: Waiting for purge to start
+2022-05-05T08:06:33.341842Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 2839247
+2022-05-05T08:06:33.343464Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-05-05T08:06:33.343539Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\data\ib_buffer_pool
+2022-05-05T08:06:33.373934Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220505 10:06:33
+2022-05-05T08:06:33.387038Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-05-05T08:06:33.387776Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-05-05T08:06:33.415359Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-05-05T08:06:33.416505Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-05-05T08:06:33.435369Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-05-05T08:06:33.436065Z 0 [Note] IPv6 is available.
+2022-05-05T08:06:33.436354Z 0 [Note]   - '::' resolves to '::';
+2022-05-05T08:06:33.436737Z 0 [Note] Server socket created on IP: '::'.
+2022-05-05T08:06:34.642696Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-05-05T08:06:34.643738Z 0 [Note] 
+2022-05-05T08:11:50.187770Z 2 [Note] 
+2022-05-05T08:12:16.012746Z 3 [Note] 
+2022-05-05T08:12:19.961764Z 4 [Note] 
+2022-05-05T08:27:16.427350Z 5 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\german\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-05T08:27:35.509743Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-05-05T08:27:35.509839Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-05-05T08:27:35.509845Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-05-05T08:27:35.509876Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-05-05T08:27:35.510586Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-05-05T08:27:35.510612Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 13204 ...
+2022-05-05T08:27:35.511614Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-05T08:27:35.523657Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-05T08:27:35.524168Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-05T08:27:35.524481Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-05T08:27:35.524981Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-05T08:27:35.525746Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-05T08:27:35.526218Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-05T08:27:35.529536Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-05T08:27:35.538108Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-05T08:27:35.600612Z 0 [ERROR] InnoDB: .\ib_logfile0 can't be opened in read-write mode.
+2022-05-05T08:27:35.601134Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-05-05T08:27:35.810946Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-05-05T08:27:35.811836Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-05-05T08:27:35.812766Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-05-05T08:27:35.813507Z 0 [ERROR] Aborting
+
+2022-05-05T08:27:35.813895Z 0 [Note] Binlog end
+2022-05-05T08:27:35.814254Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-05T08:27:35.814938Z 0 [Note] 
+2022-05-05T08:28:21.849773Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-05-05T08:28:21.849873Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-05-05T08:28:21.849878Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-05-05T08:28:21.849910Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-05-05T08:28:21.850741Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-05-05T08:28:21.850766Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 19304 ...
+2022-05-05T08:28:21.851740Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-05T08:28:21.863978Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-05T08:28:21.864494Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-05T08:28:21.864814Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-05T08:28:21.865322Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-05T08:28:21.866117Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-05T08:28:21.866585Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-05T08:28:21.870883Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-05T08:28:21.881197Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-05T08:28:21.950506Z 0 [ERROR] InnoDB: .\ib_logfile0 can't be opened in read-write mode.
+2022-05-05T08:28:21.951031Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-05-05T08:28:22.265333Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-05-05T08:28:22.266233Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-05-05T08:28:22.267219Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-05-05T08:28:22.267778Z 0 [ERROR] Aborting
+
+2022-05-05T08:28:22.268071Z 0 [Note] Binlog end
+2022-05-05T08:28:22.268423Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-05T08:28:22.269091Z 0 [Note] 
+2022-05-05T08:28:57.381319Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-05-05T08:28:57.381432Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-05-05T08:28:57.381440Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-05-05T08:28:57.381482Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-05-05T08:28:57.382305Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-05-05T08:28:57.382376Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 13388 ...
+2022-05-05T08:28:57.383742Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-05T08:28:57.396452Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-05T08:28:57.396975Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-05T08:28:57.397297Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-05T08:28:57.398069Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-05T08:28:57.399052Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-05T08:28:57.399648Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-05T08:28:57.403298Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-05T08:28:57.413844Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-05T08:28:57.450706Z 0 [ERROR] InnoDB: .\ib_logfile0 can't be opened in read-write mode.
+2022-05-05T08:28:57.451222Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-05-05T08:28:57.662199Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-05-05T08:28:57.663140Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-05-05T08:28:57.664103Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-05-05T08:28:57.664616Z 0 [ERROR] Aborting
+
+2022-05-05T08:28:57.664863Z 0 [Note] Binlog end
+2022-05-05T08:28:57.665215Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-05T08:28:57.665895Z 0 [Note] 
+2022-05-05T08:29:04.731207Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-05-05T08:29:04.731302Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-05-05T08:29:04.731308Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-05-05T08:29:04.731339Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-05-05T08:29:04.732033Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-05-05T08:29:04.732058Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 5384 ...
+2022-05-05T08:29:04.733033Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-05T08:29:04.744857Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-05T08:29:04.745364Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-05T08:29:04.745690Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-05T08:29:04.746188Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-05T08:29:04.746955Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-05T08:29:04.747422Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-05T08:29:04.750659Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-05T08:29:04.759208Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-05T08:29:04.827135Z 0 [ERROR] InnoDB: .\ib_logfile0 can't be opened in read-write mode.
+2022-05-05T08:29:04.827989Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-05-05T08:29:05.150610Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-05-05T08:29:05.151505Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-05-05T08:29:05.152330Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-05-05T08:29:05.153065Z 0 [ERROR] Aborting
+
+2022-05-05T08:29:05.153498Z 0 [Note] Binlog end
+2022-05-05T08:29:05.153889Z 0 [Note] Shutting down plugin 'CSV'
+2022-05-05T08:29:05.154652Z 0 [Note] 
+2022-05-05T08:49:28.106500Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-05-05T08:49:28.106583Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-05-05T08:49:28.106588Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-05-05T08:49:28.106614Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-05-05T08:49:28.107368Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-05-05T08:49:28.107392Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 9312 ...
+2022-05-05T08:49:28.114948Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-05T08:49:28.141938Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-05T08:49:28.142439Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-05T08:49:28.142750Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-05T08:49:28.143246Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-05T08:49:28.143978Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-05T08:49:28.144416Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-05T08:49:28.147783Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-05T08:49:28.155851Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-05T08:49:28.216244Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-05-05T08:49:28.218768Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2839266
+2022-05-05T08:49:28.219262Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2839275
+2022-05-05T08:49:28.219776Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-05-05T08:49:28.220166Z 0 [Note] InnoDB: Starting crash recovery.
+2022-05-05T08:49:28.570609Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-05T08:49:28.571095Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-05T08:49:28.572036Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-05T08:49:28.584186Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-05-05T08:49:28.593432Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-05-05T08:49:28.594217Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-05-05T08:49:28.595066Z 0 [Note] InnoDB: Waiting for purge to start
+2022-05-05T08:49:28.649654Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 2839275
+2022-05-05T08:49:28.651234Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\data\ib_buffer_pool
+2022-05-05T08:49:28.651375Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-05-05T08:49:28.680188Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220505 10:49:28
+2022-05-05T08:49:28.690808Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-05-05T08:49:28.691541Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-05-05T08:49:28.709818Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-05-05T08:49:28.710862Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-05-05T08:49:28.725522Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-05-05T08:49:28.726202Z 0 [Note] IPv6 is available.
+2022-05-05T08:49:28.726566Z 0 [Note]   - '::' resolves to '::';
+2022-05-05T08:49:28.726943Z 0 [Note] Server socket created on IP: '::'.
+2022-05-05T08:49:29.673937Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-05-05T08:49:29.674890Z 0 [Note] 
+2022-05-05T08:49:49.556409Z 2 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\german\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-10T07:53:54.478086Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-05-10T07:53:54.480014Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-05-10T07:53:54.480029Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-05-10T07:53:54.480079Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-05-10T07:53:54.481120Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-05-10T07:53:54.481193Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 9932 ...
+2022-05-10T07:53:54.494732Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-10T07:53:54.541111Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-10T07:53:54.542015Z 0 [Note] InnoDB: Uses event mutexes
+2022-05-10T07:53:54.542577Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-05-10T07:53:54.543471Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-10T07:53:54.544945Z 0 [Note] InnoDB: Number of pools: 1
+2022-05-10T07:53:54.545868Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-05-10T07:53:54.551380Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-05-10T07:53:54.564630Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-10T07:53:54.643000Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-05-10T07:53:54.646208Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2845569
+2022-05-10T07:53:54.647095Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2845578
+2022-05-10T07:53:54.648012Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-05-10T07:53:54.648720Z 0 [Note] InnoDB: Starting crash recovery.
+2022-05-10T07:53:55.116331Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-10T07:53:55.117183Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-10T07:53:55.118570Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-10T07:53:55.135475Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-05-10T07:53:55.150237Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-05-10T07:53:55.151322Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-05-10T07:53:55.152729Z 0 [Note] InnoDB: Waiting for purge to start
+2022-05-10T07:53:55.208140Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 2845578
+2022-05-10T07:53:55.209710Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-05-10T07:53:55.209712Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\data\ib_buffer_pool
+2022-05-10T07:53:55.247641Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220510  9:53:55
+2022-05-10T07:53:55.271640Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-05-10T07:53:55.272954Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-05-10T07:53:55.306625Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-05-10T07:53:55.307741Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-05-10T07:53:55.331210Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-05-10T07:53:55.332305Z 0 [Note] IPv6 is available.
+2022-05-10T07:53:55.332812Z 0 [Note]   - '::' resolves to '::';
+2022-05-10T07:53:55.333471Z 0 [Note] Server socket created on IP: '::'.
+2022-05-10T07:53:56.812275Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-05-10T07:53:56.813195Z 0 [Note] 
+2022-05-10T07:55:00.542942Z 3 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\USBWebServer\mysql\share\german\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-05-10T07:58:03.042277Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31815ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-05-10T12:15:48.769046Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10799307ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-05-10T18:42:47.509825Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23213541ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-05-10T22:37:46.596335Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10799108ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-05-11T06:31:27.785515Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28417160ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-05-11T07:39:31.042028Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1268198ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-06-14T08:12:23.436365Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T08:12:23.436520Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T08:12:23.436529Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T08:12:23.436574Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T08:12:23.437519Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T08:12:23.437603Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 1928 ...
+2022-06-14T08:12:23.438778Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T08:12:23.458056Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T08:12:23.458871Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T08:12:23.459385Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T08:12:23.460460Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T08:12:23.462293Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T08:12:23.463419Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T08:12:23.469613Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T08:12:23.481574Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T08:12:23.542320Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-14T08:12:23.546190Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 3114344
+2022-06-14T08:12:23.547076Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 3114353
+2022-06-14T08:12:23.547943Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-06-14T08:12:23.548663Z 0 [Note] InnoDB: Starting crash recovery.
+2022-06-14T08:12:23.838820Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-06-14T08:12:23.839772Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-14T08:12:23.842285Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-14T08:12:23.860440Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-06-14T08:12:23.875236Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-14T08:12:23.876423Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-14T08:12:23.877958Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-14T08:12:23.937179Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 3114353
+2022-06-14T08:12:23.938791Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\data\ib_buffer_pool
+2022-06-14T08:12:23.938963Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-14T08:12:23.958673Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-14T08:12:23.959852Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-14T08:12:23.964122Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-14T08:12:23.965139Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-14T08:12:23.970076Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-06-14T08:12:23.971159Z 0 [Note] IPv6 is available.
+2022-06-14T08:12:23.971621Z 0 [Note]   - '::' resolves to '::';
+2022-06-14T08:12:23.972199Z 0 [Note] Server socket created on IP: '::'.
+2022-06-14T08:12:23.974979Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220614 10:12:23
+2022-06-14T08:12:24.043639Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-06-14T08:12:24.044561Z 0 [Note] 
+2022-06-14T10:07:27.616162Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T10:07:27.616306Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T10:07:27.616315Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T10:07:27.616372Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T10:07:27.617563Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T10:07:27.617593Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 21728 ...
+2022-06-14T10:07:27.619284Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T10:07:27.640938Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T10:07:27.642008Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T10:07:27.642596Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T10:07:27.643531Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T10:07:27.644939Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T10:07:27.645715Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T10:07:27.651600Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T10:07:27.665832Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T10:07:27.686728Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2022-06-14T10:07:27.687550Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2022-06-14T10:07:27.688322Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-06-14T10:07:28.027287Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-06-14T10:07:28.028133Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-06-14T10:07:28.029029Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-06-14T10:07:28.029758Z 0 [ERROR] Aborting
+
+2022-06-14T10:07:28.030223Z 0 [Note] Binlog end
+2022-06-14T10:07:28.030759Z 0 [Note] Shutting down plugin 'CSV'
+2022-06-14T10:07:28.032067Z 0 [Note] 
+2022-06-14T10:08:10.430470Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T10:08:10.430627Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T10:08:10.430637Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T10:08:10.430695Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T10:08:10.431896Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T10:08:10.431941Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 14532 ...
+2022-06-14T10:08:10.433266Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T10:08:10.452361Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T10:08:10.453232Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T10:08:10.453732Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T10:08:10.454604Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T10:08:10.455997Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T10:08:10.456754Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T10:08:10.462244Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T10:08:10.476577Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T10:08:10.558224Z 0 [ERROR] InnoDB: .\ib_logfile0 can't be opened in read-write mode.
+2022-06-14T10:08:10.559232Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-06-14T10:08:10.892448Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-06-14T10:08:10.893279Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-06-14T10:08:10.894144Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-06-14T10:08:10.894834Z 0 [ERROR] Aborting
+
+2022-06-14T10:08:10.895285Z 0 [Note] Binlog end
+2022-06-14T10:08:10.895877Z 0 [Note] Shutting down plugin 'CSV'
+2022-06-14T10:08:10.897068Z 0 [Note] 
+2022-06-14T10:09:05.372431Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T10:09:05.372543Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T10:09:05.372551Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T10:09:05.372589Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T10:09:05.373452Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T10:09:05.373491Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 5052 ...
+2022-06-14T10:09:05.374408Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T10:09:05.394695Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T10:09:05.395642Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T10:09:05.396228Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T10:09:05.397336Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T10:09:05.398872Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T10:09:05.399684Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T10:09:05.404985Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T10:09:05.419710Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T10:09:05.471768Z 0 [ERROR] InnoDB: .\ib_logfile1 can't be opened in read-write mode.
+2022-06-14T10:09:05.472719Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-06-14T10:09:05.781995Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-06-14T10:09:05.782997Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-06-14T10:09:05.784060Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-06-14T10:09:05.784891Z 0 [ERROR] Aborting
+
+2022-06-14T10:09:05.785432Z 0 [Note] Binlog end
+2022-06-14T10:09:05.786098Z 0 [Note] Shutting down plugin 'CSV'
+2022-06-14T10:09:05.787359Z 0 [Note] 
+2022-06-14T10:09:30.692257Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T10:09:30.692385Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T10:09:30.692393Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T10:09:30.692437Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T10:09:30.693562Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T10:09:30.693602Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 14544 ...
+2022-06-14T10:09:30.694747Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T10:09:30.713238Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T10:09:30.714062Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T10:09:30.714556Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T10:09:30.715457Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T10:09:30.716597Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T10:09:30.717296Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T10:09:30.722261Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T10:09:30.735804Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T10:09:30.823554Z 0 [ERROR] InnoDB: .\ib_logfile0 can't be opened in read-write mode.
+2022-06-14T10:09:30.824926Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-06-14T10:09:31.147332Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-06-14T10:09:31.148107Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-06-14T10:09:31.148826Z 0 [ERROR] Failed to initialize builtin plugins.
+2022-06-14T10:09:31.149400Z 0 [ERROR] Aborting
+
+2022-06-14T10:09:31.149789Z 0 [Note] Binlog end
+2022-06-14T10:09:31.150286Z 0 [Note] Shutting down plugin 'CSV'
+2022-06-14T10:09:31.151365Z 0 [Note] 
+2022-06-14T10:12:06.684802Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T10:12:06.684917Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T10:12:06.684926Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T10:12:06.684964Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T10:12:06.685915Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T10:12:06.685955Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 8892 ...
+2022-06-14T10:12:06.695157Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T10:12:06.731003Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T10:12:06.731806Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T10:12:06.732296Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T10:12:06.733082Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T10:12:06.734897Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T10:12:06.735729Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T10:12:06.741241Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T10:12:06.753481Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T10:12:06.829387Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-14T10:12:06.832688Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 3121419
+2022-06-14T10:12:06.833450Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 3121428
+2022-06-14T10:12:06.834245Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-06-14T10:12:06.834857Z 0 [Note] InnoDB: Starting crash recovery.
+2022-06-14T10:12:07.371723Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-06-14T10:12:07.372503Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-14T10:12:07.374430Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-14T10:12:07.388545Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-06-14T10:12:07.401684Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-14T10:12:07.403149Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-14T10:12:07.404902Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-14T10:12:07.470838Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 3121428
+2022-06-14T10:12:07.472702Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-14T10:12:07.472911Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\data\ib_buffer_pool
+2022-06-14T10:12:07.509807Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220614 12:12:07
+2022-06-14T10:12:07.530740Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-14T10:12:07.532052Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-14T10:12:07.562062Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-14T10:12:07.563206Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-14T10:12:07.586089Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-06-14T10:12:07.587129Z 0 [Note] IPv6 is available.
+2022-06-14T10:12:07.587577Z 0 [Note]   - '::' resolves to '::';
+2022-06-14T10:12:07.588137Z 0 [Note] Server socket created on IP: '::'.
+2022-06-14T10:12:09.232341Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-06-14T10:12:09.233172Z 0 [Note] 
+2022-06-14T10:15:22.998277Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T10:15:22.998456Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T10:15:22.998468Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T10:15:22.998532Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T10:15:22.999641Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T10:15:22.999707Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 7020 ...
+2022-06-14T10:15:23.014717Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T10:15:23.051803Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T10:15:23.053077Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T10:15:23.053789Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T10:15:23.054899Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T10:15:23.056483Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T10:15:23.057223Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T10:15:23.062577Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T10:15:23.075776Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T10:15:23.140755Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-14T10:15:23.144028Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 3121456
+2022-06-14T10:15:23.144841Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 3121465
+2022-06-14T10:15:23.145638Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-06-14T10:15:23.146255Z 0 [Note] InnoDB: Starting crash recovery.
+2022-06-14T10:15:23.707583Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-06-14T10:15:23.708642Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-14T10:15:23.710814Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-14T10:15:23.728905Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-06-14T10:15:23.749945Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-14T10:15:23.751287Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-14T10:15:23.753052Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-14T10:15:23.807480Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 3121465
+2022-06-14T10:15:23.809440Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-14T10:15:23.809461Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\data\ib_buffer_pool
+2022-06-14T10:15:23.849343Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220614 12:15:23
+2022-06-14T10:15:23.869746Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-14T10:15:23.870924Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-14T10:15:23.904366Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-14T10:15:23.905290Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-14T10:15:23.926754Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-06-14T10:15:23.927781Z 0 [Note] IPv6 is available.
+2022-06-14T10:15:23.928231Z 0 [Note]   - '::' resolves to '::';
+2022-06-14T10:15:23.928793Z 0 [Note] Server socket created on IP: '::'.
+2022-06-14T10:15:25.458704Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-06-14T10:15:25.459730Z 0 [Note] 
+2022-06-14T10:15:30.496943Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T10:15:30.497080Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T10:15:30.497092Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T10:15:30.497139Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T10:15:30.498132Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T10:15:30.498172Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 6148 ...
+2022-06-14T10:15:30.499262Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T10:15:30.522140Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T10:15:30.523252Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T10:15:30.523940Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T10:15:30.525044Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T10:15:30.526464Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T10:15:30.527357Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T10:15:30.532955Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T10:15:30.549239Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T10:15:30.635990Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-14T10:15:30.639830Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 3121493
+2022-06-14T10:15:30.641036Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 3121502
+2022-06-14T10:15:30.642266Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-06-14T10:15:30.643142Z 0 [Note] InnoDB: Starting crash recovery.
+2022-06-14T10:15:30.935894Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-06-14T10:15:30.936942Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-14T10:15:30.939285Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-14T10:15:30.958688Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-06-14T10:15:30.971399Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-14T10:15:30.972756Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-14T10:15:30.974445Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-14T10:15:31.038779Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 3121502
+2022-06-14T10:15:31.040090Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-14T10:15:31.040219Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\data\ib_buffer_pool
+2022-06-14T10:15:31.056180Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-14T10:15:31.057329Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-14T10:15:31.060593Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-14T10:15:31.061464Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-14T10:15:31.065265Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-06-14T10:15:31.066276Z 0 [Note] IPv6 is available.
+2022-06-14T10:15:31.066730Z 0 [Note]   - '::' resolves to '::';
+2022-06-14T10:15:31.067284Z 0 [Note] Server socket created on IP: '::'.
+2022-06-14T10:15:31.070250Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220614 12:15:31
+2022-06-14T10:15:31.147563Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-06-14T10:15:31.148511Z 0 [Note] 
+2022-06-14T10:29:12.632615Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T10:29:12.632712Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T10:29:12.632717Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T10:29:12.632750Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T10:29:12.633461Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T10:29:12.633485Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 11440 ...
+2022-06-14T10:29:12.642585Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T10:29:12.672514Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T10:29:12.673019Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T10:29:12.673329Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T10:29:12.673822Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T10:29:12.675259Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T10:29:12.675828Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T10:29:12.679238Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T10:29:12.687759Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T10:29:12.757021Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-14T10:29:12.759843Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 3121521
+2022-06-14T10:29:12.760341Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 3121530
+2022-06-14T10:29:12.760845Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-06-14T10:29:12.761232Z 0 [Note] InnoDB: Starting crash recovery.
+2022-06-14T10:29:13.206078Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-06-14T10:29:13.206560Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-14T10:29:13.207394Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-14T10:29:13.220906Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-06-14T10:29:13.231424Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-14T10:29:13.232890Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-14T10:29:13.233982Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-14T10:29:13.284950Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 3121530
+2022-06-14T10:29:13.286517Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-14T10:29:13.286537Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Eric\USBWebServer\mysql\data\ib_buffer_pool
+2022-06-14T10:29:13.314439Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220614 12:29:13
+2022-06-14T10:29:13.327267Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-14T10:29:13.328004Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-14T10:29:13.350224Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-14T10:29:13.351402Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-14T10:29:13.369747Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-06-14T10:29:13.370490Z 0 [Note] IPv6 is available.
+2022-06-14T10:29:13.370780Z 0 [Note]   - '::' resolves to '::';
+2022-06-14T10:29:13.371209Z 0 [Note] Server socket created on IP: '::'.
+2022-06-14T10:29:14.374385Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-06-14T10:29:14.375290Z 0 [Note] 
+2022-06-14T15:48:23.173341Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 18013462ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-06-14T16:54:47.509563Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1743594ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-06-14T17:22:59.286663Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 116500ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-06-14T17:41:28.150505Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 455071ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-06-14T19:35:04.418185Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1578064ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2022-06-14T21:12:34.897479Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T21:12:34.897560Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T21:12:34.897564Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T21:12:34.897587Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T21:12:34.898080Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T21:12:34.898113Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 4172 ...
+2022-06-14T21:12:34.904092Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T21:12:34.924841Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T21:12:34.925162Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T21:12:34.925352Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T21:12:34.925656Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T21:12:34.926249Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T21:12:34.926612Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T21:12:34.928802Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T21:12:34.935630Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T21:12:34.998772Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-14T21:12:35.001258Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 3146025
+2022-06-14T21:12:35.001574Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 3146034
+2022-06-14T21:12:35.001900Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-06-14T21:12:35.002143Z 0 [Note] InnoDB: Starting crash recovery.
+2022-06-14T21:12:35.325975Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-06-14T21:12:35.326321Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-14T21:12:35.326940Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-14T21:12:35.334792Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-06-14T21:12:35.342819Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-14T21:12:35.343442Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-14T21:12:35.344110Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-14T21:12:35.403861Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 3146034
+2022-06-14T21:12:35.404913Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-14T21:12:35.404990Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\data\ib_buffer_pool
+2022-06-14T21:12:35.431089Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220614 23:12:35
+2022-06-14T21:12:35.432598Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-14T21:12:35.433051Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-14T21:12:35.447019Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-14T21:12:35.447778Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-14T21:12:35.456764Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-06-14T21:12:35.457218Z 0 [Note] IPv6 is available.
+2022-06-14T21:12:35.457430Z 0 [Note]   - '::' resolves to '::';
+2022-06-14T21:12:35.457711Z 0 [Note] Server socket created on IP: '::'.
+2022-06-14T21:12:36.119826Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-06-14T21:12:36.120225Z 0 [Note] 
+2022-06-14T21:13:59.171832Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T21:13:59.171893Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T21:13:59.171897Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T21:13:59.171916Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T21:13:59.172365Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T21:13:59.172382Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 14044 ...
+2022-06-14T21:13:59.173133Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T21:13:59.180526Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T21:13:59.180856Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T21:13:59.181050Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T21:13:59.181370Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T21:13:59.181873Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T21:13:59.182162Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T21:13:59.185295Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T21:13:59.190999Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T21:13:59.224802Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-14T21:13:59.226710Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 3149667
+2022-06-14T21:13:59.227027Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 3149676
+2022-06-14T21:13:59.227346Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-06-14T21:13:59.227600Z 0 [Note] InnoDB: Starting crash recovery.
+2022-06-14T21:13:59.431046Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-06-14T21:13:59.431372Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-14T21:13:59.431905Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-14T21:13:59.444243Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-06-14T21:13:59.451730Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-14T21:13:59.452111Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-14T21:13:59.452773Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-14T21:13:59.512052Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 3149676
+2022-06-14T21:13:59.513190Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-14T21:13:59.513238Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\data\ib_buffer_pool
+2022-06-14T21:13:59.521383Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-14T21:13:59.521831Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-14T21:13:59.523386Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-14T21:13:59.523738Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-14T21:13:59.525217Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-06-14T21:13:59.525625Z 0 [Note] IPv6 is available.
+2022-06-14T21:13:59.525798Z 0 [Note]   - '::' resolves to '::';
+2022-06-14T21:13:59.526018Z 0 [Note] Server socket created on IP: '::'.
+2022-06-14T21:13:59.529819Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220614 23:13:59
+2022-06-14T21:13:59.549739Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-06-14T21:13:59.550096Z 0 [Note] 
+2022-06-14T21:14:44.285030Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-14T21:14:44.285088Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-14T21:14:44.285092Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-14T21:14:44.285111Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-14T21:14:44.285571Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-14T21:14:44.285587Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 18956 ...
+2022-06-14T21:14:44.286298Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-14T21:14:44.293833Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-14T21:14:44.294160Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-14T21:14:44.294360Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-14T21:14:44.294673Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-14T21:14:44.295175Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-14T21:14:44.295470Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-14T21:14:44.297518Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-14T21:14:44.303086Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-14T21:14:44.336732Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-14T21:14:44.339314Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 3149695
+2022-06-14T21:14:44.339695Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 3149704
+2022-06-14T21:14:44.340008Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-06-14T21:14:44.340252Z 0 [Note] InnoDB: Starting crash recovery.
+2022-06-14T21:14:44.531738Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-06-14T21:14:44.532030Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-14T21:14:44.532596Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-14T21:14:44.540617Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-06-14T21:14:44.547198Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-14T21:14:44.547859Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-14T21:14:44.548490Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-14T21:14:44.610249Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 3149704
+2022-06-14T21:14:44.611369Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-14T21:14:44.611434Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\data\ib_buffer_pool
+2022-06-14T21:14:44.620450Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-14T21:14:44.620898Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-14T21:14:44.622400Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-14T21:14:44.622754Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-14T21:14:44.624225Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-06-14T21:14:44.624640Z 0 [Note] IPv6 is available.
+2022-06-14T21:14:44.624816Z 0 [Note]   - '::' resolves to '::';
+2022-06-14T21:14:44.625025Z 0 [Note] Server socket created on IP: '::'.
+2022-06-14T21:14:44.629835Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220614 23:14:44
+2022-06-14T21:14:44.649135Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-06-14T21:14:44.649485Z 0 [Note] 
+2022-06-15T14:09:01.472110Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-15T14:09:01.472167Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-15T14:09:01.472171Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-15T14:09:01.472190Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-15T14:09:01.472814Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-15T14:09:01.472836Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 15876 ...
+2022-06-15T14:09:01.479453Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-15T14:09:01.499435Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-15T14:09:01.499745Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-15T14:09:01.499939Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-15T14:09:01.500244Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-15T14:09:01.500730Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-15T14:09:01.501019Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-15T14:09:01.503136Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-15T14:09:01.508771Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-15T14:09:01.559816Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-15T14:09:01.562411Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 3153253
+2022-06-15T14:09:01.562723Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 3153262
+2022-06-15T14:09:01.563033Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-06-15T14:09:01.563270Z 0 [Note] InnoDB: Starting crash recovery.
+2022-06-15T14:09:01.923905Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-06-15T14:09:01.924196Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-15T14:09:01.924711Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-15T14:09:01.935187Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-06-15T14:09:01.942318Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-15T14:09:01.943099Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-15T14:09:01.943619Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-15T14:09:02.007674Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 3153262
+2022-06-15T14:09:02.008816Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-15T14:09:02.008860Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\data\ib_buffer_pool
+2022-06-15T14:09:02.028052Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220615 16:09:02
+2022-06-15T14:09:02.032952Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-15T14:09:02.033401Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-15T14:09:02.042507Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-15T14:09:02.043527Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-15T14:09:02.047799Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-06-15T14:09:02.048215Z 0 [Note] IPv6 is available.
+2022-06-15T14:09:02.048390Z 0 [Note]   - '::' resolves to '::';
+2022-06-15T14:09:02.048606Z 0 [Note] Server socket created on IP: '::'.
+2022-06-15T14:09:02.048846Z 0 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+2022-06-15T14:09:02.049163Z 0 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2022-06-15T14:09:02.049474Z 0 [ERROR] Aborting
+
+2022-06-15T14:09:02.049622Z 0 [Note] Binlog end
+2022-06-15T14:09:02.049880Z 0 [Note] Shutting down plugin 'ngram'
+2022-06-15T14:09:02.050082Z 0 [Note] Shutting down plugin 'partition'
+2022-06-15T14:09:02.050288Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-06-15T14:09:02.050495Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-06-15T14:09:02.050695Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-06-15T14:09:02.050957Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-06-15T14:09:02.051174Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-06-15T14:09:02.051384Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-06-15T14:09:02.051619Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-06-15T14:09:02.051859Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-06-15T14:09:02.052101Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-06-15T14:09:02.052347Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-06-15T14:09:02.052584Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-06-15T14:09:02.052814Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-06-15T14:09:02.053049Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-06-15T14:09:02.053281Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-06-15T14:09:02.053528Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-06-15T14:09:02.053758Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-06-15T14:09:02.054003Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-06-15T14:09:02.054245Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-06-15T14:09:02.054474Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-06-15T14:09:02.054721Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-06-15T14:09:02.054952Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-06-15T14:09:02.055208Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-06-15T14:09:02.055428Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-06-15T14:09:02.055672Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-06-15T14:09:02.055923Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-06-15T14:09:02.056167Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-06-15T14:09:02.056400Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-06-15T14:09:02.056656Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-06-15T14:09:02.056896Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-06-15T14:09:02.057130Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-06-15T14:09:02.057347Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-06-15T14:09:02.057574Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-06-15T14:09:02.057781Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-06-15T14:09:02.058010Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-06-15T14:09:02.058224Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-06-15T14:09:02.058431Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-06-15T14:09:02.059134Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-06-15T14:09:02.059790Z 0 [Note] InnoDB: Starting shutdown...
+2022-06-15T14:09:02.166291Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\data\ib_buffer_pool
+2022-06-15T14:09:02.168338Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 220615 16:09:02
+2022-06-15T14:09:03.399340Z 0 [Note] InnoDB: Shutdown completed; log sequence number 3162281
+2022-06-15T14:09:03.400097Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-06-15T14:09:03.400385Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-06-15T14:09:03.400583Z 0 [Note] Shutting down plugin 'CSV'
+2022-06-15T14:09:03.400772Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-06-15T14:09:03.400993Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-06-15T14:09:03.401355Z 0 [Note] Shutting down plugin 'binlog'
+2022-06-15T14:09:03.401842Z 0 [Note] 
+2022-06-15T14:09:10.970600Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-15T14:09:10.970660Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-06-15T14:09:10.970663Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-06-15T14:09:10.970685Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-15T14:09:10.971144Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-06-15T14:09:10.971168Z 0 [Note] C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.29) starting as process 18040 ...
+2022-06-15T14:09:10.971908Z 0 [ERROR] Error message file 'C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1120 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-06-15T14:09:10.979470Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-06-15T14:09:10.979788Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-15T14:09:10.979982Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-06-15T14:09:10.980288Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-15T14:09:10.980787Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-15T14:09:10.981081Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-06-15T14:09:10.983419Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-15T14:09:10.989246Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-15T14:09:11.025434Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-15T14:09:11.088630Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-15T14:09:11.089212Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-15T14:09:11.099380Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-06-15T14:09:11.106325Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-15T14:09:11.107251Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-15T14:09:11.107859Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-15T14:09:11.173772Z 0 [Note] InnoDB: 5.7.29 started; log sequence number 3162281
+2022-06-15T14:09:11.174666Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-15T14:09:11.174763Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\_Daten\Frodo\_Schule\Informatik\Datenbank-Projekt\Notentracker\src\mysql\data\ib_buffer_pool
+2022-06-15T14:09:11.184479Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-15T14:09:11.184956Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-15T14:09:11.186646Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-15T14:09:11.187025Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-15T14:09:11.188664Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-06-15T14:09:11.189134Z 0 [Note] IPv6 is available.
+2022-06-15T14:09:11.189320Z 0 [Note]   - '::' resolves to '::';
+2022-06-15T14:09:11.189593Z 0 [Note] Server socket created on IP: '::'.
+2022-06-15T14:09:11.198683Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220615 16:09:11
+2022-06-15T14:09:11.923345Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-06-15T14:09:11.923752Z 0 [Note] 

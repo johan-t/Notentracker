@@ -1,0 +1,176 @@
+body {
+  background-color: #1D2025;
+  font-family: Arial;
+  color: #FFFFFF;
+}
+
+/*Übersichts-Dinger*/
+.Uebersicht {
+  position: absolute;
+  padding: .5%;
+  width: 30%;
+  margin-top: 17%;
+}
+
+/*Boxen um den Text*/
+.UebersichtBox {
+  background-color: #39424B;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 5%;
+  font-weight: bold;
+}
+
+.NoteHinzufuegen {
+  background-color: #02D2BF;
+  border-radius: 100em;
+  padding: 5%;
+  margin: 5%;
+  border: none;
+  font-weight: bold;
+  color: #FFFFFF;
+  cursor: pointer;
+  float: right;
+}
+
+/* Variablen */
+.Variablen {
+  font-weight: normal;
+}
+
+/*Overlay fuer neue Noten*/
+.NeueNoteOverlay {
+  position: absolute;
+  border-radius: 10px;
+  padding: 2.5%;
+  width: 25%;
+  bottom: 2.5%;
+  right: 2.5%;
+  background-color: #39424B;
+}
+
+.NeueNoteBox {
+  border: solid #02D2BF;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 5%;
+  color: #FFFFFF;
+  background-color: transparent;
+  width: 79%;
+}
+
+.LabelOben {
+  position: relative;
+  top: 1.75em;
+  left: 5%;
+  background-color: #39424B;
+  padding: 1%;
+  color: #02D2BF;
+}
+
+.LabelUnten {
+  position: relative;
+  top: -1em;
+  left: 2.5em;
+  color: #02D2BF;
+  font-size: 75%;
+}
+
+.NeueNoteReset {
+  cursor: pointer;
+  width: 40%;
+  font-weight: bold;
+  color: #FFFFFF;
+  border: none;
+  background-color: #FF5757;
+  border-radius: 10em;
+  padding: 5%;
+  margin: 5%;
+}
+
+.NeueNoteSubmit {
+  cursor: pointer;
+  font-weight: bold;
+  width: 40%;
+  color: #FFFFFF;
+  border: none;
+  background-color: #02D2BF;
+  border-radius: 10em;
+  padding: 5%;
+  margin: 5%;
+}
+
+/*Übersicht Ordner*/
+.Kurs-Overview {
+  padding: 1%;
+  background-color: #39424B;
+  position: absolute;
+  left: 2.5%;
+  top: 2.5%;
+  border-radius: 10px;
+}
+
+.Teiler {
+  border: 1px solid white;
+  width: 1%;
+  margin: 2%;
+}
+
+.Lehrer-Semester {
+  background-color: #39424B;
+  position: absolute;
+  top: 15%;
+  left: 2.5%;
+  border-radius: 10px;
+  padding: 2%;
+  line-height: 200%;
+}
+
+.PencilIcon {
+  color: #FFFFFF;
+  background-color: #02D2BF;
+  position: absolute;
+  top: -0.5em;
+  right: -0.5em;
+  border-radius: 50%;
+  padding: 2.5%;
+}
+
+.user-block {
+  background-color: #39424B;
+  position: absolute;
+  top: 2.5%;
+  right: 2.5%;
+  border-radius: 10px;
+  padding: 1%;
+  cursor: pointer;
+}
+
+.UserIcon {
+  vertical-align: middle;
+}
+
+/*Tabelle CSS*/
+.containerDiv {
+  bottom: 2.5em;
+  left: 2.5em;
+  width: 60%;
+  position: absolute;
+  padding-top: 1em;
+  border-top: 0.15em solid #02D2BF;
+}
+
+.Tabelle {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-spacing: 0.1em;
+  table-layout: fixed;
+  border-radius: 0.2em;
+}
+
+.Tabelle td, th {
+  color: #FFFFFF;
+  background-color: #8EA1B4;
+  padding: 1%;
+  text-align: center;
+}
